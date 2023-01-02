@@ -1,0 +1,189 @@
+
+    body {
+        /* width: 50vw; */
+        /* align-items: center; */
+        text-align: center;
+        margin: 0;
+        /* padding: 0; */
+        /* max-width: 600px; */
+        /* align-items: center; */
+        /* margin: auto; */
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    /* navbar */
+    #navbar {
+        /* width: 50vw; */
+        background-color: 
+        #D1FAE5;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        border-bottom-right-radius: 40px;
+        /* justify-content: flex-end; */
+
+    }
+
+    #navbar ul {
+        display: flex;
+        /* font-size: 2rem; */
+        /* justify-content: center; */
+    }
+
+    #navbar li {
+        list-style: none;
+    }
+
+    .item_1 {
+        padding: 10px;
+    }
+
+    #navbar a {
+        margin: 22px;
+        padding: 13px;
+    }
+
+    #navbar a:hover {
+        color: black;
+        background-color: 
+        rgb(255, 255, 255)
+        ;
+        border-radius: 30px;
+
+    }
+    .link-active {
+        font-weight: bold;
+    }
+   
+
+    /* header */
+
+    .header {
+        align-items: center;
+        font-size: 2rem;
+        margin: 20px;
+        max-width: 600px;
+        margin: auto;
+
+    }
+    img{
+        max-width: 350px;
+        padding: 4rem;
+        margin: auto;
+        
+    }
+    h1 {
+        color: #d6cdec;
+    }
+
+    
+    a {
+        text-decoration: none;
+        color: crimson;
+
+    }
+    .bio{
+        padding: 10px;
+    }
+
+    
+
+    .section {
+        background-color: #dcefea6b;
+        font-size: 2rem;
+        padding: 10px;
+        /* margin: 22px; */
+        max-width: 600px;
+        margin: auto;
+        align-items: center;
+        
+    }
+    div{
+        padding: 20px;
+    }
+
+
+   /* project */
+    
+   .project-btn{
+    background-color: #99f4c5;
+    border: 1px solid black;
+    padding: 7px 10px;
+    margin: 0 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: crimson;
+   }
+   .project-btn:hover{
+    color: black;
+        background-color: 
+        rgb(255, 255, 255)
+        ;
+   }
+
+
+
+    .footer {
+        /* background-color: #09ff826e; */
+        background-color: #D1FAE5;
+        font-size: 2rem;
+        padding: 1px;
+        margin: 0px -19px;
+        border-top-left-radius: 40px;
+    }
+
+    footer li {
+        display: inline;  /* to make list item inline and it also removes the pointer of list */
+        margin: 22px;
+        /* margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0px; */
+
+    }
+
+    footer a:hover {
+        color: black;
+        background-color: 
+        rgb(194, 190, 190)
+        ;
+        border-radius: 20px;
+
+    }
+
+    .para-link a:hover {
+        color: black;
+        background-color: 
+        rgb(194, 190, 190)
+        ;
+        border-radius: 20px;
+
+    }
+
+    
+    @media (min-width:300px) and (max-width:600px) {
+        .header-img{
+            max-width: 15rem;
+        }
+        header{
+            font-size: 1rem;
+        }
+        #navbar{
+            font-size: 1rem;
+            border-bottom-right-radius: 20px;
+        }
+        #navbar a {
+            margin: 7px;
+            padding: 10px;
+        }
+    
+
+
+
+        .section{
+            font-size: 1rem;
+        }
+        footer{
+            font-size: 1rem;
+        }
+    }
